@@ -109,6 +109,7 @@ const NavBar: React.FC<NavBarProps> = ({ drawerOpen, toggleDrawer, notifications
           variant="h6"
           color="inherit"
           noWrap
+          className={classes.menuButtonHidden}
           data-test="app-name-logo"
         >
           <Link to="/" style={{ color: "#fff", textDecoration: "none" }} component={RouterLink}>
